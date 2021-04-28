@@ -12,6 +12,10 @@ Charcoal Black: #040404
 
 body {
     font-family: 'Open Sans', sans-serif;
-    color: #d8ab4e;
+    background-color:  #fff;
 
+}
+
+.navbar {
+    background-color:  #fff !important;
 }
