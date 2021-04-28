@@ -1,0 +1,16 @@
+/* 
+
+Golden top: #d8ab4e
+
+Golden bottom: #b48c36
+
+Charcoal Black: #040404 
+
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #d8ab4e;
+}
