@@ -24,3 +24,7 @@ body {
     background-color:  #fff !important;
     margin-bottom: 30px;
 }
+
+hr {
+    margin: 40px;
+}
