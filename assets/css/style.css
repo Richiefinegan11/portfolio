@@ -1,10 +1,14 @@
 /* 
 
-Golden top: #d8ab4e
+Olive: #A3BCB6
 
-Golden bottom: #b48c36
+Green Leaf: #39603D
 
-Charcoal Black: #040404 
+Brown Grey: #3C403D
+
+Tanly: #DADED4
+
+White: #FFFFFF 
 
 */
 
@@ -18,4 +22,5 @@ body {
 
 .navbar {
     background-color:  #fff !important;
+    margin-bottom: 30px;
 }
