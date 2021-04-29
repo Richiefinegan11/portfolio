@@ -26,7 +26,7 @@ body {
 }
 
 hr {
-    margin: 40px;
+    margin: 5rem 50px;
 }
     
 #content-wrap {
@@ -39,7 +39,6 @@ hr {
   width: 100%;
   height: 2.5rem;            /* Footer height */
 }
-
 
 .social-icons {
     margin-top: 3rem;
