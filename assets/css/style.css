@@ -26,7 +26,7 @@ body {
 }
 
 hr {
-    margin: 5rem 50px;
+    margin: 5rem 3rem 50px;
 }
     
 #content-wrap {
@@ -44,6 +44,4 @@ hr {
     margin-top: 3rem;
 }
 
-.carousel-header {
-    margin-bottom: 50px;
-}
+
