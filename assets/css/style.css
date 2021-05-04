@@ -16,10 +16,9 @@ White: #FFFFFF
 
 body {
     font-family: 'Open Sans', sans-serif;
-    background-color:  #fff;
     position: relative;
     min-height: 100vh;
-    color: #fff;
+    color: #b37d4e;
     background-color: #022140; 
 }
 
@@ -28,7 +27,7 @@ body {
 }
 
 nav div a {
-  color: #fff !important;
+  color: #b37d4e !important;
 }
     
 #content-wrap {
@@ -51,7 +50,7 @@ hr {
 }
 
 .card {
-  background-color: #5085A5 ;
-  border: 5px solid #fff ;
+  background-color: #022140 ;
+  border: 5px solid #b37d4e ;
   
 }
