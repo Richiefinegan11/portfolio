@@ -29,6 +29,11 @@ body {
 nav div a {
   color: #b37d4e !important;
 }
+
+.img-thumbnail {
+  border: 5px solid #b37d4e ;
+
+}
     
 #content-wrap {
   padding-bottom: 2.5rem;    /* Footer height */
