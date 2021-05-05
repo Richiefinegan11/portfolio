@@ -52,6 +52,11 @@ nav div a {
   border: 5px solid #b37d4e ;
 
 }
+
+.projects div a {
+  text-decoration: none;
+  color: #b37d4e;
+}
     
 #content-wrap {
   padding-bottom: 2.5rem;    /* Footer height */
