@@ -30,6 +30,24 @@ nav div a {
   color: #b37d4e !important;
 }
 
+.cursor {
+  display: inline-block;
+  width: 4px;
+  background-color: #b37d4e;
+  opacity: 75%;
+  margin:0 2px;
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+
+    0% { background-color: #b37d4e; }
+    49% { background-color: #b37d4e; }
+    50% { background-color: transparent; }
+    99% { background-color: transparent; }
+    100% { background-color: #b37d4e; }
+}
+
 .img-thumbnail {
   border: 5px solid #b37d4e ;
 
