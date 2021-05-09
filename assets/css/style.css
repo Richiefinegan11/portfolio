@@ -18,7 +18,7 @@ body {
     font-family: 'Open Sans', sans-serif;
     position: relative;
     min-height: 100vh;
-    color: #b37d4e;
+    color: #fff;
     background-color: #022140; 
 }
 
@@ -27,7 +27,7 @@ body {
 }
 
 nav div a {
-  color: #b37d4e !important;
+  color: #fff !important;
 }
 
 .cursor {
@@ -55,7 +55,7 @@ nav div a {
 
 .projects div a {
   text-decoration: none;
-  color: #b37d4e;
+  color: #fff;
 }
     
 #content-wrap {
@@ -70,7 +70,8 @@ nav div a {
 }
 
 .social-icons {
-    margin-top: 3rem;
+  margin-top: 3rem;
+  color: #b37d4e;
 }
 
 hr {
