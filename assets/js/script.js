@@ -39,3 +39,12 @@ function erase() {
 document.addEventListener("DOMContentLoaded", function () {
     if (textArray.length) setTimeout(type, newTextDelay + 250);
 });
+
+// Age Calculator
+
+function ageCalculator() {
+    var birth = document.getElementById("DOB").value;
+    var dob = new Date(birth)
+
+    
+}
