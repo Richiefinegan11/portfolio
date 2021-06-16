@@ -43,49 +43,16 @@ document.addEventListener("DOMContentLoaded", function () {
 // Age Calculator
 
 function getAge(dateString) {
-    var now = new Date();
     var today = new Date();
-    var yearNow = now.getFullYear();
-    var monthNow = now.getMonth();
-    var dateNow = now.getDate();
-
-    var dob = new Date(dateString.substring(6, 10), dateString.substring(3, 5), dateString.substring(0, 2) - 1);
-
-    var yearDob = dob.getFullYear();
-    var monthDob = dob.getMonth();
-    var dateDob = dob.getDate();
-    var age = {};
-    var ageString = "";
-    var yearString = "";
-    var monthString = "";
-    var dayString = "";
-
-    yearAge = yearNow - yearDob;
-
-    if (monthNow >= monthDob)
-        var monthAge = monthNow - monthDob + 1;
-    else {
-        yearAge--;
-        var monthAge = 12 + monthNow - monthDob
+    var birthDate = new Date(dateString);
+    var age = today.getFullYear() - birthDate.getFullYear();
+    var m = today.getMonth() - birthDate.getMonth();
+    if (m < 0 || (m === 0 && today.getDate() < birthDate.getDate())) {
+        age--;
     }
-    if (dateNow >= dateDob)
-        var dateAge = dateNow - dateDob;
-    else {
-        monthAge--;
-        var dateAge = 31 + dateNow - dateDob;
-
-        if (monthAge < 0) {
-            monthAge = 11;
-            yearAge--;
-        }
-    }
-
-    age = {
-        years: yearAge,
-        months: monthAge,
-        days: dateAge
-    };
-
-    
-
+    return age;
 }
+document.getElementById('age').innerHTML =  'Age: ' + getAge("1990/08/30");
+
+
+
